@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+    margin: 0;
+    } .logo{
+    flex: 20%;
+    text-align: center;
+    }
+    .logo h1{
+    font-family: Arial, Helvetica, sans-serif;color: white;
+    font-size: 30px;
+    }
+    .navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(93, 148, 105);
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+    .menu{
+        flex: 70%;
+        text-align: right;
+        padding: 20px;
+        }
+        .menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 16px;
+        }
+        .menu a:hover{
+        color: rgb(255, 254, 254);
+        border-top: 4px solid yellow;
+        }
+        #botao{
+            color: white;
+            }
+            #botao:hover{
+            background: gray;
+            color: white
+            }
+            section{
+                margin-top: 10px;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding: 5%;
+                text-align: center;
+                width: 90%; }
+                section h2{
+                width: 100%;
+                font-size: 50px;
+                margin: 0; }
+                section h3{
+                margin: 0;
+                font-size: 20px; }
+                .card{
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                margin: 1%;
+                border: 1px solid rgb(0, 0, 0); }
+                .preco{
+                font-size: 20px;
+                color: rgb(255, 238, 0); }
+                .botaosobre{
+                background: rgb(109, 187, 109);
+                padding: 10px;
+                color: rgb(0, 17, 255);
+                text-decoration: none; }
+                .botaosobre:hover{
+                background: rgba(175, 170, 170, 0.322); }
+          
+                    
+                  
+                   
+                            
